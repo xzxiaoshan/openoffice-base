@@ -6,6 +6,6 @@ MAINTAINER 365384722@qq.com
 
 RUN set -x && \
   yum -y install libXext && \
-  yum -y install fontconfig && \
+  yum -y install fontconfig mkfontscale && \
   yum -y groupinstall "X Window System" && \
   yum -y install wget
